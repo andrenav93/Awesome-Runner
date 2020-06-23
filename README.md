@@ -1,4 +1,4 @@
-# awesome runner
+# Awesome runner
 
 Unity 3D - C#
 

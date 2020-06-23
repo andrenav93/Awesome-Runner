@@ -38,11 +38,16 @@ public class PlayerMovement : MonoBehaviour {
         StartCoroutine(StartGame());
     }
 
+    void Update() {
+        if (gameStarted) {
+            PlayerJump();
+        }
+    }
+
     void FixedUpdate() {
         if (gameStarted) {
             PlayerMove();
             PlayerGrounded();
-            PlayerJump();
         }
     }
 

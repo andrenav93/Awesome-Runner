@@ -25,7 +25,7 @@ public class PlayerHealthDamageShoot : MonoBehaviour {
         shootBtn.onClick.AddListener(() => Shoot());
     }
 
-    void FixedUpdate() {
+    void Update() {
         Fire();
     }
 
